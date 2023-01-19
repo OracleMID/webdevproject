@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <a class="logo" href="#">Your logo</a>
+                <div id="navModal" class="navbar_modal">
+                    <ul class="navbar_list">
+                        <li class="navbar_item">
+                            <a class="navbar_link" href="#header">Home</a>
+                        </li>
+                        <li class="navbar_item">
+                            <a class="navbar_link" href="#about">About</a>
+                        </li>
+                        <li class="navbar_item">
+                            <a class="navbar_link" href="#service">Servicing</a>
+                        </li>
+                        <li class="navbar_item">
+                            <a class="navbar_link" href="#works">Portfolio</a>
+                        </li>
+                        <li class="navbar_item">
+                            <a class="navbar_link" href="#blog">Blog</a>
+                        </li>
+                        <li class="navbar_item">
+                            <a class="navbar_link" href="#contact">Contact us</a>
+                        </li>
+                        <li class="navbar_item">
+                            <a class="navbar_link" href="#">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button id="burgerMenu" class="navbar_menu">
+                    <i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+    <header id="header">
+        <div class="container">
+            <div class="header">
+                <h1>Web development project</h1>
+                <p class="subtitle">Very suitable to support all web development projects</p>
+                <div class="header_buttons">
+                    <button class="outline header_button">OUR SERVICES</button>
+                    <button>HIRE IS NOW</button>
+                </div>
+            </div>
+        </div>
+        <a class="header_arrow" href="#">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </header>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section_heading">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quaerat illo totam architecto deserunt iusto aut. Delectus ullam dignissimos ad exercitationem porro sequi!</p>
+            </div>
+            <div class="about_content">
+                <div class="about_item">
+                    <img src="./img/about/internet.png" alt="head">
+                    <h3>Awesome Icons</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa et molestias repellendus.</p>
+                </div>
+                <div class="about_item">
+                    <img src="./img/about/transfer.png" alt="transfer">
+                    <h3>One Page</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta eos quod provident quibusdam?</p>
+                </div>
+                <div class="about_item">
+                    <img src="./img/about/head.png" alt="head">
+                    <h3>Fully Responsive</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta sint!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="service" class="service">
+        <div class="container">
+            <div class="section_heading">
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quaerat illo totam architecto deserunt iusto aut. Delectus ullam dignissimos ad exercitationem porro sequi!</p>
+            </div>
+            <div class="service_content">
+                <div class="service_item">
+                    <div class="service_img"></div>
+                    <h3>Research</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium alias placeat cupiditate temporibus officiis asperiores dolores eius delectus totam.</p>
+                    <button class="outline">READ MORE</button>
+                </div>
+                <div class="service_item">
+                    <div class="service_img"></div>
+                    <h3>Portfolio</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium alias placeat cupiditate temporibus officiis asperiores dolores eius delectus totam.</p>
+                    <button class="outline">READ MORE</button>
+                </div>
+                <div class="service_item">
+                    <div class="service_img"></div>
+                    <h3>Support</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium alias placeat cupiditate temporibus officiis asperiores dolores eius delectus totam.</p>
+                    <button class="outline">READ MORE</button>
+                </div>
+                <div class="service_item">
+                    <div class="service_img"></div>
+                    <h3>Documentation</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium alias placeat cupiditate temporibus officiis asperiores dolores eius delectus totam.</p>
+                    <button class="outline">READ MORE</button>
+                </div>
+                <div class="service_item">
+                    <div class="service_img"></div>
+                    <h3>Development</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium alias placeat cupiditate temporibus officiis asperiores dolores eius delectus totam.</p>
+                    <button class="outline">READ MORE</button>
+                </div>
+                <div class="service_item">
+                    <div class="service_img"></div>
+                    <h3>Design</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium alias placeat cupiditate temporibus officiis asperiores dolores eius delectus totam.</p>
+                    <button class="outline">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works" class="works">
+        <div class="container">
+            <div class="section_heading">
+                <h2>Latest Works</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet porro iusto quae animi aperiam, enim facilis laborum voluptates officiis magni.</p>
+            </div>
+            <div class="works_buttons">
+                <button id="all" class="works_outline">ALL</button>
+                <button id="webDes" class="works_outline">WEB DESIGN</button>
+                <button id="uiDes" class="works_outline">UI/UX DESIGN</button>
+                <button id="mockUp" class="works_outline">MOCKUPS</button>
+            </div>
+            <div class="works_content">
+                <div data-category="uiUxDesign" class="works_item">
+                    <img src="./img/works/clock.png" alt="">
+                    <div class="works_item_overlay">
+                        <h3>Hand Watch</h3>
+                        <p>ui/ux design</p>
+                    </div>
+                </div>
+                <div data-category="webDesign" class="works_item">
+                    <img src="./img/works/package.png" alt="">
+                    <div class="works_item_overlay">
+                        <h3>Package</h3>
+                        <p>ui/ux design</p>
+                    </div>
+                </div>
+                <div data-category="uiUxDesign" class="works_item">
+                    <img src="./img/works/clothes.png" alt="">
+                    <div class="works_item_overlay">
+                        <h3>Clothes</h3>
+                        <p>ui/ux design</p>
+                    </div>
+                </div>
+                <div data-category="Mockups" class="works_item">
+                    <img src="./img/works/canteen.png" alt="">
+                    <div class="works_item_overlay">
+                        <h3>Canteen</h3>
+                        <p>ui/ux design</p>
+                    </div>
+                </div>
+                <div data-category="webDesign" class="works_item">
+                    <img src="./img/works/bottle.png" alt="">
+                    <div class="works_item_overlay">
+                        <h3>Bottle</h3>
+                        <p>ui/ux design</p>
+                    </div>
+                </div>
+                <div data-category="Mockups" class="works_item">
+                    <img src="./img/works/bag.png" alt="">
+                    <div class="works_item_overlay">
+                        <h3>Bag</h3>
+                        <p>ui/ux design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="works_viewall">
+                <button>VIEW ALL</button>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section_heading">
+                <h2>Pricing plan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequatur nam id minus maxime harum iusto quisquam pariatur provident consequuntur, earum quasi voluptatum qui quibusdam?</p>
+            </div>
+            <div class="pricing_content">
+                <div class="pricing_item">
+                    <div class="pricing_item_head">
+                        <h3 class="pricing_heading">Free Trail</h3>
+                        <p class="price">
+                            <span>00</span>
+                                per month</p>
+                    </div>
+                    <div class="pricing_item_body">
+                        <ul class="pricing_item_list">
+                            <li class="pricing_item_list_component">30 Free Trail</li>
+                            <li class="pricing_item_list_component">5 Free Projects</li>
+                            <li class="pricing_item_list_component">PHP 5 Enabled</li>
+                            <li class="pricing_item_list_component">24/7 Supports</li>
+                        </ul>
+                        <button class="outline">ORDER NOW</button>
+                    </div>
+                </div>
+                <div class="pricing_item">
+                    <div class="pricing_item_head">
+                        <h3 class="pricing_heading">Basic</h3>
+                        <p class="price">
+                            <span>50</span>
+                                per month</p>
+                    </div>
+                    <div class="pricing_item_body">
+                        <ul class="pricing_item_list">
+                            <li class="pricing_item_list_component">30 Free Trail</li>
+                            <li class="pricing_item_list_component">5 Free Projects</li>
+                            <li class="pricing_item_list_component">PHP 5 Enabled</li>
+                            <li class="pricing_item_list_component">24/7 Supports</li>
+                        </ul>
+                        <button class="outline">ORDER NOW</button>
+                    </div>
+                </div>
+                <div class="pricing_item">
+                    <div class="pricing_item_head">
+                        <h3 class="pricing_heading">Ultimates</h3>
+                        <p class="price">
+                            <span>99</span>
+                                per month</p>
+                    </div>
+                    <div class="pricing_item_body">
+                        <ul class="pricing_item_list">
+                            <li class="pricing_item_list_component">30 Free Trail</li>
+                            <li class="pricing_item_list_component">5 Free Projects</li>
+                            <li class="pricing_item_list_component">PHP 5 Enabled</li>
+                            <li class="pricing_item_list_component">24/7 Supports</li>
+                        </ul>
+                        <button class="outline">ORDER NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section_heading">
+                <h2>Our Team Member</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, animi? Cum aperiam architecto iste dolore quas veniam sint repellat molestiae accusantium quos?</p>
+            </div>
+            <div class="team_content">
+                <div class="swiper slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="team_item">
+                                <img src="./img/members/generalmanager.png" alt="">
+                                <div class="team_name">
+                                    <h3>John Doe</h3>
+                                    <p>General Manager</p>
+                                </div>
+                                <div class="team_buttons">
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-solid fa-comments"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_item">
+                                <img src="./img/members/officedirector.png" alt="">
+                                <div class="team_name">
+                                    <h3>Alexa Biru</h3>
+                                    <p>Office Director</p>
+                                </div>
+                                <div class="team_buttons">
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-solid fa-comments"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_item">
+                                <img src="./img/members/admin.png" alt="">
+                                <div class="team_name">
+                                    <h3>Ronobir Sing</h3>
+                                    <p>Admin</p>
+                                </div>
+                                <div class="team_buttons">
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-solid fa-comments"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_item">
+                                <img src="./img/members/generalmanager.png" alt="">
+                                <div class="team_name">
+                                    <h3>John Doe</h3>
+                                    <p>General Manager</p>
+                                </div>
+                                <div class="team_buttons">
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-solid fa-comments"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_item">
+                                <img src="./img/members/officedirector.png" alt="">
+                                <div class="team_name">
+                                    <h3>Alexa Biru</h3>
+                                    <p>Office Director</p>
+                                </div>
+                                <div class="team_buttons">
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-solid fa-comments"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_item">
+                                <img src="./img/members/officedirector.png" alt="">
+                                <div class="team_name">
+                                    <h3>Alexa Biru</h3>
+                                    <p>Office Director</p>
+                                </div>
+                                <div class="team_buttons">
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-solid fa-comments"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_item">
+                                <img src="./img/members/generalmanager.png" alt="">
+                                <div class="team_name">
+                                    <h3>John Doe</h3>
+                                    <p>General Manager</p>
+                                </div>
+                                <div class="team_buttons">
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-solid fa-comments"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_item">
+                                <img src="./img/members/generalmanager.png" alt="">
+                                <div class="team_name">
+                                    <h3>John Doe</h3>
+                                    <p>General Manager</p>
+                                </div>
+                                <div class="team_buttons">
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-solid fa-comments"></i>
+                                    </a>
+                                    <a class="team_button">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination team_slider"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section_heading">
+                <h2>Blog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequatur temporibus ullam iusto praesentium, ipsa porro sunt beatae architecto at.</p>
+            </div>
+            <div class="blog_content">
+                <div class="blog_item">
+                    <div class="blog_img">
+                        <img src="./img/blog/ceo.png" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <h2 class="blog_heading">SEO Quis Vestibulum</h2>
+                        <ul class="blog_list">
+                            <li class="blog_list_element">
+                                <img src="./img/blog/calendar.png" alt="">
+                            </li>
+                            <li class="blog_list_element">
+                                <p class="blog_subtitle">14.07.2017</p>
+                            </li>
+                            <li class="blog_list_element">
+                                <img src="./img/blog/file.png" alt="">
+                            </li>
+                            <li class="blog_list_element">                            
+                                <p class="blog_subtitle">Development
+                            </p>
+                            </li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi blanditiis fugiat beatae vel ipsa ea! Cumque distinctio libero praesentium dolores eaque optio nulla dicta soluta, autem molestias maiores in cupiditate.</p>
+                    </div>
+                </div>
+                <div class="blog_item">
+                    <div class="blog_img">
+                        <img src="./img/blog/macbook.png" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <h2 class="blog_heading">SEO Quis Vestibulum</h2>
+                        <ul class="blog_list">
+                            <li class="blog_list_element">
+                                <img src="./img/blog/calendar.png" alt="">
+                            </li>
+                            <li class="blog_list_element">
+                                <p class="blog_subtitle">14.07.2017</p>
+                            </li>
+                            <li class="blog_list_element">
+                                <img src="./img/blog/file.png" alt="">
+                            </li>
+                            <li class="blog_list_element">                            
+                                <p class="blog_subtitle">Development</p>
+                            </li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi blanditiis fugiat beatae vel ipsa ea! Cumque distinctio libero praesentium dolores eaque optio nulla dicta soluta, autem molestias maiores in cupiditate.</p>
+                    </div>
+                </div>
+                <div class="blog_item">
+                    <div class="blog_img">
+                        <img src="./img/blog/macbook2.png" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <h2 class="blog_heading">SEO Quis Vestibulum</h2>
+                        <ul class="blog_list">
+                            <li class="blog_list_element">
+                                <img src="./img/blog/calendar.png" alt="">
+                            </li>
+                            <li class="blog_list_element">
+                                <p class="blog_subtitle">14.07.2017</p>
+                            </li>
+                            <li class="blog_list_element">
+                                <img src="./img/blog/file.png" alt="">
+                            </li>
+                            <li class="blog_list_element">                            
+                                <p class="blog_subtitle">Development</p>
+                            </li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi blanditiis fugiat beatae vel ipsa ea! Cumque distinctio libero praesentium dolores eaque optio nulla dicta soluta, autem molestias maiores in cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section_heading">
+                <h2>Contact us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati iusto quibusdam inventore alias? Veritatis velit repudiandae animi voluptate non?</p>
+            </div>
+            <div class="contact_content">
+                <div class="contact_info">
+                    <div class="contact_info_item">
+                        <div class="contact_icon">
+                            <img src="./img/contact/placeholder.png" alt="">
+                        </div>
+                        <p class="contact_text">Nobinagar savar, Dhaka</p>
+                        <p class="contact_text">Bangladesh</p>
+                    </div>
+                    <div class="contact_info_item">
+                        <div class="contact_icon">
+                            <img src="./img/contact/phone-call.png" alt="">
+                        </div>
+                        <p class="contact_text">+8801743331996</p>
+                        <p class="contact_text">+8801928737807</p>
+                    </div>
+                    <div class="contact_info_item">
+                        <div class="contact_icon">
+                            <img src="./img/contact/mail.png" alt="">
+                        </div>
+                        <p class="contact_text">quickmasud@gmail.com</p>
+                        <p class="contact_text">quickmasud@yahoo.com</p>
+                    </div>
+                </div>
+                <div class="contact_form">
+                    <input type="text" placeholder="Your NAME">
+                    <input type="text" placeholder="Your Email">
+                    <textarea placeholder="Write Message"></textarea>
+                    <button class="contact_button">SEND</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="footer_text">All rights reserved © 2017</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
